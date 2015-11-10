@@ -12,7 +12,6 @@
 </head>
 
 <body>
-	<div class="container-fluid">
     <nav class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -37,6 +36,11 @@
                         <li><a href="#">Separated link</a></li>
                         <li class="divider"></li>
                     </ul>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">Groups</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Value Added Offers</a></li>
+                    <li><a href="#">Help</a></li>
                 </li>
             </ul>
             <div class="col-sm-3 col-md-3 pull-right">
@@ -52,9 +56,31 @@
         </div>
     </nav>
     <section>
-
+        <div class="container">
+            <div class="row">
+                <form class="form-horizontal">
+                    <div class="form-group row">                        
+                            <div class="col-md-2 col-xs-6">
+                                <label for="sel">Select</label>
+                                <select multiple class="form-control" id="sel">
+                                    <option>Buying</option>
+                                    <option>Selling</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>              
+                        
+                            <div class="col-md-2 col-xs-6">
+                                <label for="sel">Select</label>
+                                <select multiple class="form-control" id="sel">
+                                    <option>Product</option>
+                                    <option>Services</option>                                    
+                                </select>
+                            </div>                        
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
-</div>
 </body>
 
 </html>
